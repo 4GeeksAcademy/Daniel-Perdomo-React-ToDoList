@@ -66,7 +66,6 @@ const Home = () => {
 										onClick={() => handleTaskClick(index)}
 										style={{ cursor: 'pointer' }}>
 										<p>{item.task} <i className="fas fa-window-close"></i></p>
-										
 									</li>
 								)
 							})
